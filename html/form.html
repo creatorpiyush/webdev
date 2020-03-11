@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Table Tutorial</title>
+    <meta charset="utf-8">
+</head>
+
+
+<body>
+
+    <form name="employment" action="send.php" method="post">
+        <table width="600" border="1" cellspacing="2" cellpadding="2">
+            <tr>
+                <td>employment application</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>first name</td>
+                <td><input type="text" name="fname" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>last name</td>
+                <td><input type="text" name="lname" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>position</td>
+                <td>
+                    <select name="position">
+
+                    <option value="ac">Accountant</option>
+                    <option value="re">reception</option>
+                    <option value="ad">admin</option>
+                    <option value="su">supervisor</option>
+                    
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td>experience level</td>
+                <td>
+                    <select name="experience">
+                     
+                    <option value="ac">Accountant</option>
+                    <option value="re">reception</option>
+                    <option value="ad">admin</option>
+                    <option value="su">supervisor</option>
+
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td>job type</td>
+                <td>
+                    <input type="checkbox" name="ft" />full time
+                    <input type="checkbox" name="pt" />part time
+                    <input type="checkbox" name="ct" />contract
+                </td>
+            </tr>
+            <tr>
+                <td>employment type</td>
+                <td>
+
+                    <input type="radio" name="estatus" value="employed" />employed
+                    <input type="radio" name="estatus" value="unemployed" />unemployed
+                    <input type="radio" name="estatus" value="student" />student
+
+                </td>
+            </tr>
+            <tr>
+                <td>comments</td>
+                <td>
+
+                    <textarea name="comments" cols="45" rows="5"></textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+
+                    <input type="submit" name="submit" value="submit" />
+                    <input type="reset" name="reset" value="reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<small> Defines smaller text (It will make the inside tag smaller by 1px)
+
+<strong> Defines important text
+
+<sub> Defines subscripted text
+
+<sup> Defines superscripted text
+
+<del> Defines deleted text
+
+<mark> Defines marked/highlighted text
+
+Note: You need to close these tags like <small>Small Content</small>
